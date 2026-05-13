@@ -10,6 +10,14 @@ const scores = [
   {이름:"수잔", 국어: 70, 영어: 70, 수학: 80, 과학:70},
   {이름:"수", 국어: 60, 영어: 60, 수학: 70, 과학:60},]
 
+const sources=[0,1,2,3]
+tmp=[]
+for (let item of source){
+  tmp.puch(item*2)
+} 
+
+sources.map(item=>(item*2))
+
 function App() {
   const [count, setCount] = useState(0)
 
