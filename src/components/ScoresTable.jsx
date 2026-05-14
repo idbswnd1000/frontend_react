@@ -6,8 +6,16 @@ const scores = [
   { 이름: "수잔", 국어: 70, 영어: 70, 수학: 80, 과학: 70 },
   { 이름: "수", 국어: 60, 영어: 60, 수학: 70, 과학: 60 },
 ]
+const style = {
+  width: "500px",
+  height: "300px",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+}
 
-function ScoresTable() {
+function ScoresTable({scores}) {
   return (
     <table>
       <tr>
